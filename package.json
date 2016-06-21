@@ -1,0 +1,38 @@
+{
+  "name": "grunt-source-map",
+  "description": "The best Grunt plugin ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Administrator/grunt-source-map",
+  "author": {
+    "name": "dukai",
+    "email": "dukai86@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Administrator/grunt-source-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Administrator/grunt-source-map/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Administrator/grunt-source-map/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
