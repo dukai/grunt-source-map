@@ -45,8 +45,8 @@ module.exports = function(grunt) {
 
     for(var key in map){
       var newKey;
-      grunt.log.debug(newKey = key.replace(/^\.+\//, ''));
-      newMap[newKey] = map[key].replace(/^\.+\//, '');
+      grunt.log.debug(newKey = key.replace(/^\.+\/(\.+\/)*/, ''));
+      newMap[newKey] = map[key].replace(/^\.+\/(\.+\/)*/, '');
     }
 
     var out = JSON.stringify(newMap);
